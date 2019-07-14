@@ -1,20 +1,4 @@
-﻿/*document.body.append(renderCal());
-
-function renderCal() {
-    let html = '';
-    html += "<div id='cal' style='width:33%;'>";
-    html += "<button id='res' style='width:100%'></button>";
-    html += "<button id='btn0' style='width:25%;' onclick='press(\"btn0\")'+>0</button>"
-    let element = document.createElement('div');
-    element.innerHTML = html;
-    return element;
-}
-
-function press(id) {
-    document.getElementById('res').innerText += document.getElementById(id).innerText;
-}*/
-
-// JavaScript source code
+﻿// JavaScript source code
 
 document.body.append(renderCalculator());
 function renderCalculator() {
@@ -161,6 +145,3 @@ function doCalculation(text, operator) {
             return (val1 * val2).toString(2);
     }
 }
-
-/*let btn0 = document.getElementById('btn0');
-btn0.addEventListener('click', function () { addEvents(btn0.id) });*/
