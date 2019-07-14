@@ -1,0 +1,33 @@
+﻿#calculator {
+    width: 33%;
+}
+
+#res {
+    width:100%;
+    background-color: lightgray;
+    border: solid;
+    height: 48px;
+    font-size: 20px;
+}
+
+.button {
+    width: 25%;
+    font-size: 18px;
+    float: left;
+    height: 36px;
+}
+
+.input-buttons {
+    background-color: lightgreen;
+    color: brown;
+}
+
+.clearequal {
+    background-color: darkgreen;
+    color: white;
+}
+
+.operators {
+    background-color: black;
+    color: red;
+}
