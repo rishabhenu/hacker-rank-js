@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <title>Print List</title>
+    <script type="text/javascript" src="./../vue.js"></script>
+    <link rel="stylesheet" href="./../css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/003.printList.css">
+</head>
+
+<body>
+    <div id="app" class="container">
+        <div id="headings" class="row headings">
+            <div class="col-sm-2">Sr.No.</div>
+            <div class="col-sm-5">Employee Name</div>
+            <div class="col-md-5">Designation</div>
+        </div>
+        <div id="empData">
+            <div v-for="emp in employees">
+                <div class="row">
+                    <div class="col-sm-2">{{emp.sNo}}</div>
+                    <div class="col-sm-5">{{emp.name}}</div>
+                    <div class="col-sm-5">{{emp.designation}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/003.printList.js" type="text/javascript"></script>
+</body>
+
+</html>

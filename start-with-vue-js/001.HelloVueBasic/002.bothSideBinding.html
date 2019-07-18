@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Both Side Binding</title>
+    </head>
+
+    <body>
+        <script type="text/javascript" src="./../vue.js"></script>
+
+        <div id="app">
+            Enter Your Name :   <input v-model = "message"> <br/>
+            Hello           :   {{message}}
+        </div>
+
+        <script>
+            new Vue({
+                el : "#app",
+                data : {
+                    message : "Rishabh Sharma"
+                }
+            })
+        </script>
+    </body>
+</html>
